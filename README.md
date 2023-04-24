@@ -1,37 +1,44 @@
-# Desenvolvendo o Dio Bank
-desenvolvido por [Nathally Souza](https://github.com/nathyts)
 
-#### Projeto desenvolvido com conceitos básicos de typescript
+# Desafio Profile Page Dio BANK
 
-### Tecnologias
-- Typescript
+Desafio Profile Page Dio BANK, feito para a formação React do Curso da DIO.
 
-### Como rodar o projeto
 
-1 - Clone o repositório
+## Rodando localmente
 
-2 - Instale as dependeências
-    
-    npm install
+Clone o projeto
 
-3 - Execute o projeto
+```bash
+  git clone https://link-para-o-projeto
+```
 
-    npm start
+Entre no diretório do projeto
 
-#### Desafios
-[ ] Incluir validação da senha no campo de login
-  - Para logar, além do email faça a validação com a senha informada pelo usuário.
-  - Durante a implementação, aplique o TDD e escreva os testes unitários para a nova validação
+```bash
+  cd my-project
+```
 
-[ ] Implemente um sistema de login com a Context API
-  - Seguindo os exemplos demonstrados ao longo do curso, crie um estado global para realizar o login
-  - Utilize o localStorage para armazenar os dados do usuário ao logar
-  - Caso os dados do usuário existam no localStorage, a tela de login não deve ser exibida
+Instale as dependências
 
-[ ] Crie uma página para exibir as informações do usuário
-  - Crie uma página onde será exibido o nome, email
-  - Esta página só poderá ser acessada caso a usuária esteja logada
-  - Caso a usuária não esteja logada, deve ser mantida na página com a tela de login
-  - Escreva os testes unitários para as funções criadas ou refatoradas.
+```bash
+  npm install
+```
 
-[ ] Fazer o deploy no Netlify e compartilhar o link da página
+Inicie o servidor
+
+```bash
+  npm run start
+```
+
+
+## Stack utilizada
+
+**Front-end:** React, Redux, TailwindCSS, Next JS.
+
+**Back-end:** Node, Express
+
+
+## Autores
+
+- [@allanseleguim](https://www.github.com/allanseleguim)
+
